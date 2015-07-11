@@ -1,0 +1,4 @@
+def sum3(nums):
+    #my original answer --> sumNums = nums[0] + nums[1] + nums[2]
+    #ditto --> return sumNums 
+    return sum(nums)   
