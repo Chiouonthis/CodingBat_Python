@@ -1,0 +1,5 @@
+def middle_way(a, b):
+    newArray = []
+    newArray.append(a[1])
+    newArray.append(b[1])
+    return newArray
