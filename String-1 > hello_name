@@ -1,0 +1,4 @@
+def hello_name(name):
+    greeting = "Hello "
+    bang = "!"
+    return greeting + name + bang
