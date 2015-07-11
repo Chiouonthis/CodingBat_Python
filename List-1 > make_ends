@@ -1,0 +1,5 @@
+def make_ends(nums):
+    newArray = []
+    newArray.append(nums[0])
+    newArray.append(nums[-1])
+    return newArray
