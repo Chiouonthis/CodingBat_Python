@@ -1,0 +1,5 @@
+def make_tags(tag, word):
+    tag_begin = "<"
+    tag_end = ">"
+    tag_close ="</"
+    return tag_begin + tag + tag_end + word + tag_close + tag + tag_end
