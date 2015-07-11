@@ -1,0 +1,6 @@
+def same_first_last(nums):
+    x = len(nums)
+    if (x >= 1) and (nums[0] == nums[x-1]):
+        return True
+    else:
+        return False
